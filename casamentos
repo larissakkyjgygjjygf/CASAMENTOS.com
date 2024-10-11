@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casamento - Celebração do Amor</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #ffcccb;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 15px;
+            flex: 1 1 30%; /* Flex-grow, flex-shrink, flex-basis */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            text-align: center;
+            color: #e63946;
+            font-size: 1.5em;
+        }
+
+        section img {
+            width: 100%;
+            height: auto;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #ffcccb;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column; /* Muda para coluna em telas menores */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Celebração do Casamento</h1>
+    </header>
+
+    <main class="container">
+        <section class="momentos">
+            <h2>Momentos que Antecedem o Casamento</h2>
+            <img src="preparativos1.jpg" alt="Preparativos 1">
+            <img src="preparativos2.jpg" alt="Preparativos 2">
+            <img src="preparativos3.jpg" alt="Preparativos 3">
+            <img src="preparativos4.jpg" alt="Preparativos 4">
+            <img src="preparativos5.jpg" alt="Preparativos 5">
+        </section>
+
+        <section class="preparativos-noiva">
+            <h2>Preparativos do Grande Dia - A Noiva</h2>
+            <img src="noiva1.jpg" alt="Noiva 1">
+            <img src="noiva2.jpg" alt="Noiva 2">
+            <img src="noiva3.jpg" alt="Noiva 3">
+            <img src="noiva4.jpg" alt="Noiva 4">
+            <img src="noiva5.jpg" alt="Noiva 5">
+        </section>
+
+        <section class="cerimonia">
+            <h2>Fotos e Detalhes da Cerimônia</h2>
+            <img src="cerimonia1.jpg" alt="Cerimônia 1">
+            <img src="cerimonia2.jpg" alt="Cerimônia 2">
+            <img src="cerimonia3.jpg" alt="Cerimônia 3">
+            <img src="cerimonia4.jpg" alt="Cerimônia 4">
+            <img src="cerimonia5.jpg" alt="Cerimônia 5">
+        </section>
+
+        <section class="celebracao">
+            <h2>Imagens da Celebração da Festa</h2>
+            <img src="festa1.jpg" alt="Festa 1">
+            <img src="festa2.jpg" alt="Festa 2">
+            <img src="festa3.jpg" alt="Festa 3">
+            <img src="festa4.jpg" alt="Festa 4">
+            <img src="festa5.jpg" alt="Festa 5">
+        </section>
+
+        <section class="lua-de-mel">
+            <h2>Fotos da Lua de Mel</h2>
+            <img src="lua-de-mel1.jpg" alt="Lua de Mel 1">
+            <img src="lua-de-mel2.jpg" alt="Lua de Mel 2">
+            <img src="lua-de-mel3.jpg" alt="Lua de Mel 3">
+            <img src="lua-de-mel4.jpg" alt="Lua de Mel 4">
+            <img src="lua-de-mel5.jpg" alt="Lua de Mel 5">
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Casamento - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
